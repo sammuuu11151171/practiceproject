@@ -14,7 +14,7 @@ async function getDogImage() {
         return result.data.message;
     } catch(err) {
         console.log("error is :- ", err);
-        return "No fact was found..!";
+        return "Opps....No image was found..try again!";
     }
 }
 
